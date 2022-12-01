@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hdlinks {
+    font-size: 0.8rem;
+    transition: all 1s ease;
+}
+
+.hdlinks:hover {
+    background-color: orange;
+    color: orange;
+}
+
+.discountbtn {
+    border: none;
+    background: orange;
+    color: white;
+    height: 3.5rem;
+}
+
+.discountbtn:hover {
+    background-color: black;
+    transition: all 1s ease;
+    color: white;
+}
+.prodcol {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.thisweekbtn {
+    height: 3.5rem;
+}
+
+.hr {
+    width: 4rem;
+    height: 0.2rem;
+    background: orange;
+}
+.productdiv {
+    height: auto;
+    transition: all 600ms ease;
+    position: relative;
+}
+.prodimgs {
+    width: 100%;
+    height: auto;
+}
+.productdiv>div {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+}
+.prodhover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.446);
+    height: 100%;
+    display: none;
+}
+.productdiv:hover .prodhover {
+    display: block;
+}
+.productdiv:hover {
+    color: white !important;
+}
+
+.contact {
+    margin-top: rem;
+    background-color: rgba(0, 0, 0, 0.835);
+    height: 50vh;
+}
+
+.contactp {
+    color: gray;
+}
+
+.input-group {
+    margin-top: 8%;
+    height: 3.5rem;
+}
+
+.contacth2 {
+    margin-top: 8%;
+}
+
+.footer {
+    height: 40vh;
+}
+
+.footlinks {
+    margin: 15%;
+    
+}
+/* checkout session */
+.check{
+    height: 4rem;  
+}
+.checkcomment{
+    height: 10rem;
+}
+.cartmoney{
+    margin-left: 5rem;
+}
+.cartmoney2{
+    margin-left: 6.5rem;
+}
+.deivery{
+    margin-top: 11rem !important;
+    height: 25rem;
+    background-color: rgba(128, 128, 128, 0.083);
+}
+.delbtn{
+    width: 20rem;
+}
+.checkout{
+    width: 40% !important;
+    margin-top: 8rem !important;
+}
+
+/* responsiveness check */
+@media screen and (max-width: 768px) {
+    .hdlogo {
+        margin-top: -8%;
+    }
+    .hdcolumn {
+        display: none;
+    }
+    .footer{
+        height: max-content;
+    }
+    .checkout{
+        width: 100% !important;
+    }
+    .cart{
+        margin-left: 4rem; 
+    }
+    .homediv{
+        height: 5rem;
+        position: fixed;
+        background-color: white;
+    }
+}
