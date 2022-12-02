@@ -160,8 +160,4 @@ body {
     .prodcol{
         margin-top: 11rem !important;
     }
-    .index,
-    .zoom{
-        width: fit-content;
-    }
 }
