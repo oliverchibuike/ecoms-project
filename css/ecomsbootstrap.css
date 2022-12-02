@@ -125,11 +125,14 @@ body {
     width: 40% !important;
     margin-top: 8rem !important;
 }
+.checkspace{
+    width: 50% !important;
+}
 
 /* responsiveness check */
 @media screen and (max-width: 768px) {
     .hdlogo {
-        margin-top: -8%;
+        height: 2rem;
     }
     .hdcolumn {
         display: none;
@@ -144,8 +147,18 @@ body {
         margin-left: 4rem; 
     }
     .homediv{
-        height: 5rem;
+        z-index: 4;
+        height: 6rem;
         position: fixed;
         background-color: white;
+    }
+    .checkspace{
+        width: 100% !important;
+    }
+    .deivery{
+        margin-top: 5rem !important;
+    }
+    .prodcol{
+        margin-top: 11rem !important;
     }
 }
