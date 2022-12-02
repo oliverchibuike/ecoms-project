@@ -7,6 +7,9 @@ body {
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.index, .zoom{
+    width: fit-content;
+}
 
 .hdlinks {
     font-size: 0.8rem;
