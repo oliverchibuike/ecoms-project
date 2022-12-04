@@ -111,13 +111,14 @@ body {
 .cartmoney2{
     margin-left: 6.5rem;
 }
-.deivery{
+.delivery{
     margin-top: 4rem !important;
     height: 25rem;
     background-color: rgba(128, 128, 128, 0.083);
 }
+
 .delbtn{
-    width: 20rem;
+    width: 70%;
 }
 .checkout{
     width: 40% !important;
@@ -154,7 +155,7 @@ body {
         position: fixed;
         background-color: white;
     }
-    .checkspace{
+    .check, .checkspace{
         width: 100% !important;
     }
     .delivery{
