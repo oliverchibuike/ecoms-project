@@ -135,6 +135,9 @@ body {
     .hide{
         display: none;
     }
+    .productdiv, .contact, .footer{
+        width: 100%;
+    }
     .footer{
         height: max-content;
     }
@@ -154,7 +157,7 @@ body {
     .checkspace{
         width: 100% !important;
     }
-    .deivery{
+    .delivery{
         margin-top: 5rem !important;
     }
     .col1{
