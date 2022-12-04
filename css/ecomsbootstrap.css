@@ -131,7 +131,8 @@ body {
     .hdlogo {
         height: 2rem;
     }
-    .hdcolumn {
+    .hdcolumn,
+    .hide{
         display: none;
     }
     .footer{
