@@ -52,6 +52,9 @@ body {
     position: absolute;
     top: 0;
 }
+.prodcol{
+    margin-top: -10rem !important;
+}
 .prodhover {
     position: absolute;
     top: 0;
@@ -109,7 +112,7 @@ body {
     margin-left: 6.5rem;
 }
 .deivery{
-    margin-top: 11rem !important;
+    margin-top: 4rem !important;
     height: 25rem;
     background-color: rgba(128, 128, 128, 0.083);
 }
@@ -118,7 +121,6 @@ body {
 }
 .checkout{
     width: 40% !important;
-    margin-top: 8rem !important;
 }
 .checkspace{
     width: 50% !important;
@@ -137,6 +139,7 @@ body {
     }
     .checkout{
         width: 100% !important;
+        margin-top: 3rem !important;
     }
     .cart{
         margin-left: 4rem; 
@@ -153,8 +156,12 @@ body {
     .deivery{
         margin-top: 5rem !important;
     }
-    .prodcol{
-        margin-top: 11rem !important;
-       
+    .col1{
+        margin-top: 2rem !important;
+    }
+    .col2,
+    .col3{
+        margin-top: 0rem !important;
+
     }
 }
