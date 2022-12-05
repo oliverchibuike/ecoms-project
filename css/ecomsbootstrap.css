@@ -129,9 +129,6 @@ body {
 
 /* responsiveness check */
 @media screen and (max-width: 768px) {
-    .hdlogo {
-        height: 2rem;
-    }
     .hdcolumn,
     .hide{
         display: none;
@@ -150,7 +147,7 @@ body {
         padding: 1rem; 
     }
     .homediv{
-        z-index: 4;
+        z-index: 3;
         height: 6rem;
         position: fixed;
         background-color: white;
