@@ -143,6 +143,9 @@ body {
         width: 100% !important;
         margin-top: 3rem !important;
     }
+    .delivery{
+        width: 100% !important;
+    }
     .cart{
         padding: 1rem; 
     }
@@ -152,7 +155,7 @@ body {
         position: fixed;
         background-color: white;
     }
-    .check, .checkspace{
+    .checker{
         width: 100% !important;
     }
     .col1{
