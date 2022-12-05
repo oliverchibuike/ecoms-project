@@ -134,7 +134,7 @@ body {
         display: none;
     }
     .productdiv, .contact, .footer{
-        width: 100%;
+        width: 100% !important;
     }
     .footer{
         height: max-content;
