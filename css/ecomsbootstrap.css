@@ -75,6 +75,7 @@ body {
     margin-top: rem;
     background-color: rgba(0, 0, 0, 0.835);
     height: 50vh;
+    width: 100%;
 }
 
 .contactp {
@@ -92,6 +93,7 @@ body {
 
 .footer {
     height: 40vh;
+    width: 100%;
 }
 
 .footlinks {
@@ -118,7 +120,7 @@ body {
 }
 
 .delbtn{
-    width: 100%;
+    width: 50%;
 }
 .checkout{
     width: 40% !important;
@@ -139,12 +141,12 @@ body {
     .footer{
         height: max-content;
     }
+    .delivery{
+        width: 100%;
+    }
     .checkout{
         width: 100% !important;
         margin-top: 3rem !important;
-    }
-    .delivery{
-        width: 100% !important;
     }
     .cart{
         padding: 1rem; 
@@ -155,7 +157,7 @@ body {
         position: fixed;
         background-color: white;
     }
-    .checker{
+    .check, .checkspace{
         width: 100% !important;
     }
     .col1{
